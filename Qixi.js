@@ -5,7 +5,7 @@
 window.onload = init;
 
 var over=false;
-var oldUrl='file:///C:/Users/user/Pictures/marryDay/index.html';
+var oldUrl='https://ddcouples.github.io/marry/';
 var newUrl='https://www.hunliji.com/p/wedding/Public/wap/invitationCard/index.html?card_id=MjU4NTk2MGZpcmVfY2xvdWQ&speech_id=MTY4OTUwMWZpcmVfY2xvdWQ&winzoom=1';
 function init(){
 	var boy = BoyWalk();
