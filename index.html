@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html style="height:100%">
+<head>
+<meta charset="UTF-8">
+ 
+<title>张代龙和杜佳荣新婚快乐</title>
+<link href="style1.css" rel="styleSheet">
+<link href="pageA.css" rel="styleSheet">
+<link href="pageB.css" rel="styleSheet">
+<link href="pageC.css" rel="styleSheet">
+<style>
+	   body,div,img,canvas{
+	   	border:0;
+	   	padding: 0;
+	   	margin:0;
+	   	outline: 0;
+	   }
+		#timecanvas{
+    width: 100%;
+    height: 100%;
+			}
+		#textcanvas,#timecanvas{
+			position:absolute;
+			left:0;
+			top:0;
+			z-index: 99;
+		}
+	</style>
+</head>
+<body style="height:100%">
+	<div id="content">
+		<ul class="content-wrap">
+			<li>
+				<div class="a_background">
+					<div class="a_background_top"></div>
+					<div class="a_background_middle"></div>
+					<div class="a_background_botton"></div>
+				</div> <!-- 云 -->
+				<div class="cloundArea">
+					<div class="cloud cloud1"></div>
+					<div class="cloud cloud2"></div>
+				</div> <!-- 太阳 -->
+				<div id="sun"></div>
+			</li>
+			<!--第二幅画  -->
+			<li>
+				<div class="b_background"></div>
+				<div class="b_background_preload"></div>
+				<div class="shop">
+					<div class="door">
+
+						<div class="door-left"></div>
+						<div class="door-right"></div>
+
+					</div>
+				</div> <!-- 鸟 -->
+				<div class="bird"></div>
+			</li>
+			<li>
+			 <!-- 背景图 -->
+                <div class="c_background">
+                    <div class="c_background_top"></div>
+                    <div class="c_background_middle"></div>
+                    <div class="c_background_botton"></div>
+                </div>
+                <!-- 小女孩 -->
+                <div class="girl"></div>
+                <!-- 水波 -->
+                <div class="bridge-bottom">
+                    <div class="water">
+                        <div id="water1" class="water_1"></div>
+                        <div id="water2" class="water_2"></div>
+                        <div id="water3" class="water_3"></div>
+                        <div id="water4" class="water_4"></div>
+                    </div>
+                </div>
+                <!-- 星星 -->
+                <ul class="stars">
+                    <li class="stars1"></li>
+                    <li class="stars2"></li>
+                    <li class="stars3"></li>
+                    <li class="stars4"></li>
+                    <li class="stars5"></li>
+                    <li class="stars6"></li>
+                </ul>
+                <!-- 慕课网logo图 -->
+                <div class="logo">我们要结婚啦</div>
+			</li>
+		</ul>
+		<div id="boy" class="charector "></div>
+		<div id="snowflake"></div><!-- 雪花 -->
+		<!-- <div class="button">
+			<button>开始</button>
+			<button>暂停</button>
+			<button>开门</button>
+			<button>关门</button>
+		</div> -->
+	<canvas id="timecanvas" ></canvas>
+	 <canvas id="textcanvas" style=""></canvas>
+        
+	</div>
+	<div class="bottomBtn" style="display: none;">
+	   <div >
+		<span class="up_btn"></span>
+		</div>
+	</div>
+	 
+	<script type="text/javascript" src="jquery-3.1.0.js"></script>
+	<script type="text/javascript" src="jquery.transit.js"></script>
+	<script type="text/javascript" src="snow.js"></script>
+	<script type="text/javascript" src="Qixi.js"></script>
+	<script type="text/javascript" src="BoyWalk.js"></script>
+	<script type="text/javascript" src="Swipe.js"></script>
+	
+ 
+	 <script type="text/javascript" src="granuleAnimation.js"></script>
+	 <script type="text/javascript" src="digit.js"></script>
+	 <script type="text/javascript" src="countDown.js"></script>
+	
+</body>
+</html>
